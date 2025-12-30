@@ -1,0 +1,55 @@
+{
+  "name": "content-creation",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Content Creator Framework",
+    "email": "carolanelefebvre@okorp.fr"
+  },
+  "description": "Multi-platform content creation framework with 8 specialized commands and 5 expert agents for TikTok, Instagram, YouTube, and Twitch. Token-optimized with 30+ retention patterns.",
+  "homepage": "https://github.com/CarolaneLFBV/content-creation-agents",
+  "repository": "https://github.com/CarolaneLFBV/content-creation-agents",
+  "pluginRoot": "./",
+  "plugins": [
+    {
+      "name": "cc",
+      "source": "./",
+      "description": "Complete content creation framework with 8 commands and 5 specialized agents for multi-platform content (TikTok, Instagram, YouTube, Twitch). Includes 30+ retention patterns and platform-specific optimizations.",
+      "version": "1.0.0",
+      "category": "Content Creation",
+      "keywords": [
+        "content",
+        "creator",
+        "tiktok",
+        "instagram",
+        "youtube",
+        "twitch",
+        "social-media",
+        "marketing",
+        "retention",
+        "viral"
+      ],
+      "author": {
+        "name": "Content Creator Framework"
+      },
+      "license": "MIT",
+      "strict": false,
+      "commands": [
+        "./commands/ideate.md",
+        "./commands/script.md",
+        "./commands/hook.md",
+        "./commands/calendar.md",
+        "./commands/trend.md",
+        "./commands/repurpose.md",
+        "./commands/series.md",
+        "./commands/analyze.md"
+      ],
+      "agents": [
+        "./agents/strategist.md",
+        "./agents/hook-master.md",
+        "./agents/scriptwriter.md",
+        "./agents/trend-hunter.md",
+        "./agents/platform-expert.md"
+      ]
+    }
+  ]
+}
